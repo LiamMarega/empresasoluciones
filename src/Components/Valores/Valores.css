@@ -1,0 +1,46 @@
+.Valores_Container{
+	min-height: 60vh;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	font-family: 'Roboto', sans-serif;
+}
+.Valores_Container img{
+border-radius: 5%;
+}
+
+.Valores_ContainerInfo p , .Valores_ContainerInfo h4{
+	color: rgb(255, 255, 255);
+}
+
+.Valores_ContainerInfo h4{
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+.Valores_ContainerInfo p{
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	color:rgba(255, 255, 255, 0.794);
+}
+
+#ValoresColMargin{
+	margin-left: 5%;
+}
+
+
+
+@media (max-width: 550px) { 
+	#ValoresColMargin{
+		margin-left: 0%;
+
+	}
+
+	.valores_Col{
+		padding-bottom: 10%;
+	}
+
+}

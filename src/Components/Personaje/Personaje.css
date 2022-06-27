@@ -1,0 +1,49 @@
+.Personaje{
+	min-height: 50vh;
+	padding-top: 10%;
+	height: 100%;
+	background: rgb(0,18,32);
+background: -moz-linear-gradient(162deg, rgba(0,18,32,1) 0%, rgba(0,18,32,1) 0%, rgba(0,18,32,1) 50%, rgba(144,131,230,1) 73%, rgba(144,131,230,1) 100%);
+background: -webkit-linear-gradient(162deg, rgba(0,18,32,1) 0%, rgba(0,18,32,1) 0%, rgba(0,18,32,1) 50%, rgba(144,131,230,1) 73%, rgba(144,131,230,1) 100%);
+background: linear-gradient(162deg, rgba(0,18,32,1) 0%, rgba(0,18,32,1) 0%, rgba(0,18,32,1) 50%, rgba(144,131,230,1) 73%, rgba(144,131,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001220",endColorstr="#9083e6",GradientType=1);
+font-family: 'Roboto', sans-serif;
+}
+
+.Personaje_Container{
+	height: 100%;
+	
+}
+
+.Personaje_Container_Row{
+	height: 100%;
+}
+
+.imgState.Desarrollo, .imgState.Diseño, .imgState.Marketing{
+	animation: OpacityImage 1s ;
+	animation: imageMotion 5s infinite alternate; ;
+	transition: 1s;
+	opacity: 1;
+}
+
+@keyframes OpacityImage {
+	from {
+	  opacity: 0;
+	}
+
+to {
+	opacity: 1;
+	}
+  }
+ 
+  @keyframes imageMotion {
+	0% {
+	  transform: translateX(-30px);
+	  transform: translateY(-30px);
+	}
+
+	100% {
+		transform: translateX(300px);
+		transform: translateY(30px);
+	}
+  }

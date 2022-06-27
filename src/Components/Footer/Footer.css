@@ -1,0 +1,28 @@
+.Footer{
+	background-color: #000000;
+	height: 40vh;
+}
+
+.Footer a{
+	text-decoration: none;
+	color: white;
+}
+
+.Footer a svg{
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.Footer_Container, .Footer_Row  {
+	height: 100%;
+}
+.Footer_Container img {
+	width: 50%;
+
+}
+
+.ContainerLogo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
