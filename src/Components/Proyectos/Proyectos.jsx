@@ -52,7 +52,7 @@ function Proyectos() {
       img: fotoRocket,
       title: "Rocket Project",
       description:
-        "Aplicacion para obtener Videollamadas privadas y organizadas para instituciones Desarrollo de una aplicación web funcional para la organización de centros educativos y los alumnos que lo integran. &nbsp Es capaz de crear grupos de estudio en una institución, separarlos en mesas de trabajo inteligentemente y ofrecerles un chat y link para una reunión.",
+        "Aplicacion para obtener Videollamadas privadas y organizadas para instituciones Desarrollo de una aplicación web funcional para la organización de centros educativos y los alumnos que lo integran. Es capaz de crear grupos de estudio en una institución, separarlos en mesas de trabajo inteligentemente y ofrecerles un chat y link para una reunión.",
       link: "https://rocketprojectarg.netlify.app"
     },
     {

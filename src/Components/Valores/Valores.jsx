@@ -15,7 +15,7 @@ function Valores() {
   const [isVisibleAnimated, setIsVisibleAnimated] = useState(false);
 
   const activeAnimations = () => {
-    if (window.scrollY >= 3200) {
+    if (window.scrollY >= 2900) {
       setIsVisibleAnimated(true);
     }
   };
