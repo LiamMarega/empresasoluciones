@@ -1,39 +1,47 @@
-.Proyectos_Container{
-	padding-top: 10%;
-	padding-bottom: 10%;
-	font-family: 'Roboto', sans-serif;
+.Proyectos_Container {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-family: "Roboto", sans-serif;
 }
 
-
-.Proyectos_Container img:hover{
-	filter: sepia(32%) saturate(43%);
-	-webkit-filter: sepia(32%) saturate(43%);
-	-moz-filter: sepia(32%) saturate(43%);
-transition: 2s;
+.Proyectos_Container img {
+  cursor: pointer;
 }
 
+.Proyectos_Container img:hover {
+  filter: sepia(32%) saturate(43%);
+  -webkit-filter: sepia(32%) saturate(43%);
+  -moz-filter: sepia(32%) saturate(43%);
+  transition: 2s;
+}
 
 .animate-charcter {
-	text-transform: uppercase;
-	background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
-	background-size: auto auto;
-	background-clip: border-box;
-	background-size: 200% auto;
-	color: #fff;
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	animation: textclip 2s linear infinite;
-	display: inline-block;
-	font-size: 3rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 3rem;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
   }
-  
-  @keyframes textclip {
-	to {
-	  background-position: 200% center;
-	}
-  }
-  
-  .Plantilla_ContainerText{
-	  padding-bottom: 5%;
-  }
+}
+
+.Plantilla_ContainerText {
+  padding-bottom: 5%;
+}

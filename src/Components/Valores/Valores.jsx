@@ -6,6 +6,9 @@ import valores1 from "../../Images/valores1.png";
 import valores2 from "../../Images/valores2.png";
 import valores3 from "../../Images/valores3.png";
 import { Animated } from "react-animated-css";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+
 import Proyectos from "../Proyectos/Proyectos";
 
 function Valores() {
@@ -42,10 +45,11 @@ function Valores() {
             <div className="Valores_ContainerInfo">
               <h4 class="display-6 fs-2 fs-lg-3 fw-bold">Valores</h4>
               <p class="mb-0">
-                Los valores de una comunidad son aquellos criterios que comparten y ponen en
-                práctica los miembros de una sociedad. <br /> Este tipo de valores nos sirven para
-                convivir de forma respetuosa y en sintonía entre todos los miembros que componen el
-                equipo.
+                Los valores de una comunidad son aquellos criterios que
+                comparten y ponen en práctica los miembros de una sociedad.{" "}
+                <br /> Este tipo de valores nos sirven para convivir de forma
+                respetuosa y en sintonía entre todos los miembros que componen
+                el equipo.
               </p>
             </div>
           </Col>
@@ -62,9 +66,10 @@ function Valores() {
             <div className="Valores_ContainerInfo">
               <h4 class="display-6 fs-2 fs-lg-3 fw-bold">Misión</h4>
               <p class="mb-0">
-                Nuestra misión es que nuestros desarrolladores, diseñadores, equipo de managers y
-                más, encuentren un lugar de óptimo crecimiento y seamos un medio donde quieran
-                participar, aprender y sumar esa experiencia a nuevos integrantes.
+                Nuestra misión es que nuestros desarrolladores, diseñadores,
+                equipo de managers y más, encuentren un lugar de óptimo
+                crecimiento y seamos un medio donde quieran participar, aprender
+                y sumar esa experiencia a nuevos integrantes.
               </p>
             </div>
           </Col>
@@ -81,9 +86,9 @@ function Valores() {
             <div className="Valores_ContainerInfo">
               <h4 class="display-6 fs-2 fs-lg-3 fw-bold">Visión</h4>
               <p class="mb-0">
-                Nuestra visión es proporcionar las herramientas necesarias para ese aprendizaje y
-                mediante la ejecución de proyectos guiado por equipo experimentado a nuevos
-                integrantes.{" "}
+                Nuestra visión es proporcionar las herramientas necesarias para
+                ese aprendizaje y mediante la ejecución de proyectos guiado por
+                equipo experimentado a nuevos integrantes.{" "}
               </p>
             </div>
           </Col>
