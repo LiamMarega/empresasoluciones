@@ -114,12 +114,12 @@ function Habilidades2() {
              <h3 style={{color: "white"}}> Desarrollo eficiente, seguro y profesional.</h3>
             <p>
               <br />
-			  Creo para ti páginas web con diseños personalizados, de rápida carga, adaptables a dispositivos móviles y, enfocadas. <hr />
+			  Creamos para ti páginas web con diseños personalizados, de rápida carga, adaptables a dispositivos móviles y, enfocadas. <hr />
               Te ayudo a encaminar tu proyecto, posiciono tus 
 			  productos o servicios en el mercado digital.
               <br />
-              Descubre como mi ayuda puede ayudarte  a ti,
-			  sin necesidad ser un amplio conocedor del marketing digital para contratar mi servicio.
+			  sin necesidad ser un amplio conocedor del marketing digital para contratar nuestro servicio. <br />
+              Descubre como nuestra ayuda puede ayudarte a ti.
 			  <br /> 
             </p>
           </Col>

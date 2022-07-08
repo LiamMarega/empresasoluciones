@@ -12,6 +12,7 @@ import ImageDesarrollo from '../../Images/16.png';
 import ImageMarketing from '../../Images/25.png';
 import Proyectos from '../Proyectos/Proyectos';
 import Valores from '../Valores/Valores';
+import Plantillas from '../Plantillas/Plantillas.jsx';
 
 function Personaje() {
   const [select, setSelect] = useState({
@@ -19,7 +20,7 @@ function Personaje() {
     diseño: false,
     marketing: false
   });
-  
+
   const handleChange = (data) => {
     console.log(data);
     if (data == 'desarrollo') {
@@ -62,7 +63,7 @@ function Personaje() {
                   Profesional, Eficiente, Seguro
                 </Typography>
                 <Typography variant='body2'>
-                  Creo páginas web con diseños personalizados, de rápida carga, adaptables a dispositivos móviles y, enfocadas.
+                  Creamos páginas web con diseños personalizados, de rápida carga, adaptables a dispositivos móviles y, enfocadas.
                   <br />
                 </Typography>
               </CardContent>
@@ -79,7 +80,7 @@ function Personaje() {
                   Diseño Grafico, Web, Mobile, UX/UI
                 </Typography>
                 <Typography variant='body2'>
-                  Creo marcas desde cero, diseño logos, artes publicitarios, ilustraciones personalizadas y mucho más…
+                  Creamos marcas desde cero, diseño logos, artes publicitarios, ilustraciones personalizadas y mucho más…
                   <br />
                 </Typography>
               </CardContent>
@@ -97,7 +98,7 @@ function Personaje() {
                 </Typography>
                 <Typography variant='body2'>
                   ¿Buscas ayuda para manejar tus redes sociales? <br />
-                  Entonces encontraste a la Persona indicada para el trabajo. Conoce más sobre nuestros paquetes de social media para el Marketing Digital .
+                  Entonces encontraste a las Personas indicadas para el trabajo. <br /> Conoce más sobre nuestros paquetes de social media para el Marketing Digital .
                   <br />
                 </Typography>
               </CardContent>
@@ -120,8 +121,9 @@ function Personaje() {
           </Col>
         </Row>
       </Container>
-	  <Valores />
-	  <Proyectos />
+      <Valores />
+      {/*  <Plantillas/> */}
+      <Proyectos />
     </Container>
   );
 }

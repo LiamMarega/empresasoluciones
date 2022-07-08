@@ -8,15 +8,6 @@ function Habilidades() {
     <Container fluid className='Habilidades_Container'>
       <Container className='Habilidades_ContainerHijo'>
 
-        <Row>
-          <Col sm={12} xl={12}>
-            <h2>Sobre Mí</h2>
-          </Col>
-          <Col sm={12} xl={12}>
-
-            <p className='Habilidades_Descripcion_SobreMi'> ¡Hola! 👋 Soy Liam Marega Full Stack Developer <hr /> Manejo todo el Stack Mern de JavaScript, Soy desarrollador totalmente enfocado en mi trabajo, eficiente y profesional. <br /> Me adapto con facilidad a entornos nuevos y al uso de nuevas tecnologías. <br />  😊</p>
-          </Col>
-        </Row>
         <Row className='Container_Row_Especificaiones'>
           <Col className='Container_Col_Especificaiones' sm={6} md={6} xl={6}>
             <div className='rainbow'>

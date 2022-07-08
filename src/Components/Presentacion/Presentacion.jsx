@@ -10,10 +10,10 @@ function Presentacion() {
         <div className='title'>
           <div className='title-inner'>
             <div className='cafe'>
-              <div className='cafe-inner'>Developer</div>
+              <div className='cafe-inner'>Empresa</div>
             </div>
             <div className='mozart'>
-              <div className='mozart-inner'>Full Stack</div>
+              <div className='mozart-inner'>Soluciones</div>
             </div>
           </div>
         </div>
