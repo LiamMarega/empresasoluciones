@@ -27,7 +27,7 @@ function ModalProyectos({ data, onHide, show }) {
         <Button variant="success" onClick={() => onClickWeb()}>
           Visitar Web
         </Button>
-        <Button onClick={onHide}>Close</Button>
+        <Button onClick={onHide}>Cerrar</Button>
       </Modal.Footer>
     </Modal>
   );

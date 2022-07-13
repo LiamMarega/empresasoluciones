@@ -1,22 +1,21 @@
 .Habilidades2_Container {
   height: 100%;
-  padding-top: 40%;
+  padding-top: 50%;
 
-  background-image: url('../../Images/FondoPortfolio1.svg');
+  background-image: url("../../Images/FondoPortfolio1.svg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   flex-direction: row;
   flex-wrap: wrap;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.Habilidades2_Row_Container{
-	width: 100%;
+.Habilidades2_Row_Container {
+  width: 100%;
 }
 .Habilidades2_Container {
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,7 +151,8 @@
 }
 .code-css .code-content code .line-5 {
   border-color: transparent;
-  animation: typing-5 3s 12s steps(30, end) forwards, cursor-persist 1s linear 12s infinite;
+  animation: typing-5 3s 12s steps(30, end) forwards,
+    cursor-persist 1s linear 12s infinite;
 }
 .code-css .code-content code .line-2 {
   margin-left: 2rem;
@@ -247,37 +247,47 @@
   margin-top: 5%;
 }
 
-
-
-
- 
 /* / Tablets en horizonal y escritorios normales
    -------------------------------------------------------------------------  */
 
- 
 /* / Escritorios muy anchos
    -------------------------------------------------------------------------  */
-   @media (max-width: 1454px) {	
-	.illustration-editor{
-		transform: scale(0.8);
-
-	} }
-
-
-@media (max-width: 1024px) {	
-	.illustration-editor{
-		transform: scale(0.5);
-	} }
-
-@media (max-width: 768px) { 
-	.illustration-editor{
-		transform: scale(0.6);
-		margin-left: 15%;
-	} 
+@media (max-width: 1454px) {
+  .illustration-editor {
+    transform: scale(0.8);
+  }
 }
 
-@media (max-width: 358px) { 
-	.illustration-editor{
-		transform: scale(0.2);
-	} 
+@media (max-width: 1024px) {
+  .illustration-editor {
+    transform: scale(0.5);
+  }
+}
+
+@media (max-width: 900) {
+  .illustration-editor {
+    transform: scale(0.6);
+    margin-left: 15%;
+  }
+  .Habilidades2_Container {
+    padding-top: 70%;
+  }
+}
+
+@media (max-width: 558px) {
+  .illustration-editor {
+    transform: scale(0.4);
+  }
+  .Habilidades2_Container {
+    padding-top: 100%;
+  }
+}
+
+@media (max-width: 330px) {
+  .illustration-editor {
+    transform: scale(0.4);
+  }
+  .Habilidades2_Container {
+    padding-top: 110vh;
+  }
 }

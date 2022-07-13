@@ -54,36 +54,6 @@ function Proyectos() {
       description:
         "Aplicacion para obtener Videollamadas privadas y organizadas para instituciones Desarrollo de una aplicación web funcional para la organización de centros educativos y los alumnos que lo integran. Es capaz de crear grupos de estudio en una institución, separarlos en mesas de trabajo inteligentemente y ofrecerles un chat y link para una reunión.",
       link: "https://rocketprojectarg.netlify.app"
-    },
-    {
-      img: fotoClima,
-      title: "Wheater App",
-      description:
-        "Aplicacion para obtener el clima de una ciudad o pais en tiempo real!",
-      link: "https://wheaterapp-liammarega.netlify.app"
-    },
-
-    {
-      img: fotoPerro,
-      title: "Search Dog App ",
-      description:
-        "Aplicacion donde se puede consultar distintas razas de perro y en la misma poder crear razas con sus respectivas caracteristicas para que pósteriormente queden guardadas en una base de datos para el publico!",
-      link: "https://dogapp-liammarega.vercel.app"
-    },
-    {
-      img: fotoPomodoro,
-      title: "Pomodoro Clock",
-      description:
-        "La técnica Pomodoro consiste en dividir el tiempo dedicado al estudio en intervalos de 25 minutos que reciben el nombre de pomodoros. Estos intervalos se separan con pausas que también poseen una duración determinada.",
-      link: "https://pomodoroclock-liammarega.netlify.app"
-    },
-
-    {
-      img: fotoMovie,
-      title: "Movie App",
-      description:
-        "Aplicaion para obtener informacion real y actualizada de peliculas, series o programas de TV",
-      link: ""
     }
   ];
 
